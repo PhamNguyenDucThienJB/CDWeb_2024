@@ -159,15 +159,15 @@
                             </form>
                         </div>
 
-                        <div class="hero__search__phone">
-                            <div class="hero__search__phone__icon">
-                                <a href="tel:0987654321" class="fa fa-phone cursor"></a>
-                            </div>
-                            <div class="hero__search__phone__text">
-                                <h5>+84 987654321</h5>
-                                <span>Mở cửa từ 8h - 22h</span>
-                            </div>
-                        </div>
+<%--                        <div class="hero__search__phone">--%>
+<%--                            <div class="hero__search__phone__icon">--%>
+<%--                                <a href="tel:0987654321" class="fa fa-phone cursor"></a>--%>
+<%--                            </div>--%>
+<%--                            <div class="hero__search__phone__text">--%>
+<%--                                <h5>+84 987654321</h5>--%>
+<%--                                <span>Mở cửa từ 8h - 22h</span>--%>
+<%--                            </div>--%>
+<%--                        </div>--%>
                     </div>
                 </div>
             </div>
