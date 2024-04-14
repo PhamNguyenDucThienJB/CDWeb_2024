@@ -2880,7 +2880,7 @@ ol {
 -----------------------*/
 
 .footer {
-	background: #F3F6FA;
+	background: #421a1f;
 	padding-top: 70px;
 	padding-bottom: 0;
 }
@@ -2910,7 +2910,7 @@ ol {
 }
 
 .footer__widget h6 {
-	color: #1c1c1c;
+	color: wheat;
 	font-weight: 700;
 	margin-bottom: 10px;
 }
@@ -2925,7 +2925,7 @@ ol {
 }
 
 .footer__widget ul li a {
-	color: #1c1c1c;
+	color: wheat;
 	font-size: 14px;
 	line-height: 32px;
 }
@@ -3015,6 +3015,7 @@ ol {
 }
 #about li{
 	font-size: 14px;
+	color: wheat;
 }
 .cake-footer{
 	margin-top: 50px;
