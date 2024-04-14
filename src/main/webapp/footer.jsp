@@ -40,14 +40,7 @@
             <button type="submit" class="site-btn">Đăng ký</button>
 
           </form>
-          <div class="footer__widget__social">
-            <a href=" "><i class="fa fa-facebook"></i></a>
-            <a href=" "><i class="fa fa-comment"></i></a>
-            <a href=" "><i class="fa fa-instagram"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
+
 
 
     <div class="row">

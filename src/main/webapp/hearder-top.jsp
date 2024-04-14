@@ -15,7 +15,7 @@
       <div class="col-lg-6 col-md-6">
         <div class="header__top__left">
           <ul>
-            <li><i class="fa fa-envelope"></i>tiembanhhanhphuc@gmail.com</li>
+            <li><i class="fa fa-envelope"></i>thienpham0712@gmail.com</li>
             <li>Miễn phí giao hàng nội thành TP.HCM</li>
           </ul>
         </div>
@@ -23,8 +23,8 @@
       <div class="col-lg-6 col-md-6">
         <div class="header__top__right">
           <div class="header__top__right__social">
-            <a href="https://www.facebook.com/mai.thuan.52438/" target="blank"><i class="fa fa-facebook"></i></a>
-            <a href="https://www.messenger.com/t/100017755062615" target="blank"><i class="fa fa-comment"></i></a>
+            <a href="" target="blank"><i class="fa fa-facebook"></i></a>
+            <a href="" target="blank"><i class="fa fa-comment"></i></a>
             <a href="https://www.instagram.com/maizecorn1542/" target="blank"><i class="fa fa-instagram"></i></a>
           </div>
           <div class="header__top__right__auth">
