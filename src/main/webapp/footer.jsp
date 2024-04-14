@@ -41,9 +41,9 @@
 
           </form>
           <div class="footer__widget__social">
-            <a href="https://www.facebook.com/mai.thuan.52438/"><i class="fa fa-facebook"></i></a>
-            <a href="https://www.messenger.com/t/100017755062615"><i class="fa fa-comment"></i></a>
-            <a href="https://www.instagram.com/maizecorn1542/"><i class="fa fa-instagram"></i></a>
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-comment"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
           </div>
         </div>
       </div>
