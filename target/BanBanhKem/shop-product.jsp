@@ -109,9 +109,9 @@
             <div class="col-lg-7 ">
                 <nav class="header__menu">
                     <ul>
-                        <li class="active"><a href="Index">Trang chủ</a></li>
+                        <li class=""><a href="Index">Trang chủ</a></li>
                         <li class=""><a href="about.jsp">Giới thiệu</a></li>
-                        <li class=""><a href="ListProduct">Sản phẩm</a></li>
+                        <li class="active"><a href="ListProduct">Sản phẩm</a></li>
                         <li class=""><a href="ListBlog">Tin tức</a></li>
                         <li class=""><a href="contact.jsp">Liên hệ</a></li>
                     </ul>
@@ -149,7 +149,8 @@
                         <div class="hero__search__form ">
                             <form action="ProductFilter" method="get">
                                 <input name="search" type="text" placeholder="Bạn cần bánh gì nè?">
-                                <button href="ProductFilter" type="submit" class="site-btn"><i class="fa fa-search"></i> <span class="text_search">TÌM KIẾM</span></button>
+                                <button style="    border: 2px #421a1f;
+    background: #421a1f;" href="ProductFilter" type="submit" class="site-btn"><i class="fa fa-search"></i> <span class="text_search">TÌM KIẾM</span></button>
                             </form>
                         </div>
 
@@ -158,7 +159,7 @@
                                 <a href="tel:0987654321" class="fa fa-phone cursor"></a>
                             </div>
                             <div class="hero__search__phone__text">
-                                <h5>+84 987654321</h5>
+                                <h5></h5>
                                 <span>Mở cửa từ 8h - 22h</span>
                             </div>
                         </div>
