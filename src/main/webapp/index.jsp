@@ -8,7 +8,7 @@
 <%@ page import="vn.edu.hcmuaf.fit.model.FavoriteProduct" %>
 <!DOCTYPE html>
 <%@ page contentType="text/html;charsetUTF-8" language="java" pageEncoding="utf-8"%>
-<html lang="xzz">
+<html lang="xzz" style="background: wheat;">
 <meta http-equiv="Content-Type" charset="UTF-8">
 
 <head>
@@ -101,7 +101,7 @@
 <%--    Begin Update FrontEnd--%>
 <!-- Humberger End -->
 <!-- Header Section Begin -->
-<header class="header">
+<header class="header" style="background: wheat">
     <jsp:include page="hearder-top.jsp"></jsp:include>
 
     <div class="container">
@@ -146,16 +146,16 @@
 <!-- Header Section End -->
 
     <!-- Hero Section Begin -->
-    <section class="hero">
+    <section class="hero" style="background: wheat">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-9">
                     <div class="hero__search">
                         <div class="hero__search__form ">
-                            <form action="ProductFilter" method="get">
-                                <input name="search" type="text" placeholder="Bạn cần bánh gì nè?">
-                                <button href="ProductFilter" type="submit" class="site-btn"><i class="fa fa-search"></i> <span class="text_search">TÌM KIẾM</span></button>
+                            <form action="ProductFilter" method="get" >
+                                <input style="width: 100%" name="search" type="text" placeholder="Bạn cần bánh gì nè?">
+                                <button style="border: 2px #421a1f;background: #421a1f" href="ProductFilter" type="submit" class="site-btn"><i class="fa fa-search"></i> <span class="text_search">TÌM KIẾM</span></button>
                             </form>
                         </div>
 
@@ -217,7 +217,7 @@
     <!-- Categories Section Begin -->
     <section class="categories">
         <div class="section-title">
-            <h2>Sản Phẩm Bán Chạy</h2>
+            <h2 style="color: #c0c906">Sản Phẩm Bán Chạy</h2>
         </div>
         <div class="container">
             <div class="row">
@@ -259,7 +259,7 @@
                 <div class="col-lg-12">
                     <div class="featured__controls">
                         <div class="section-title">
-                            <h2>Sản Phẩm Mới</h2>
+                            <h2 style="color: #c0c906">Sản Phẩm Mới</h2>
                         </div>
                     </div>
                 </div>
@@ -301,7 +301,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title from-blog__title">
-                        <h2>Tin Tức</h2>
+                        <h2 style="color: #c0c906">Tin Tức</h2>
                     </div>
                 </div>
             </div>
