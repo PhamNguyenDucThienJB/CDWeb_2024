@@ -23,12 +23,12 @@
       <div class="col-lg-6 col-md-6">
         <div class="header__top__right">
           <div class="header__top__right__social">
-            <a href="" target="blank"><i class="fa fa-facebook"></i></a>
-            <a href="" target="blank"><i class="fa fa-comment"></i></a>
-            <a href="" target="blank"><i class="fa fa-instagram"></i></a>
+            <a href="" target="blank" style="font-size: 20px;"><i class="fa fa-facebook"></i></a>
+            <a href="" target="blank"style="font-size: 20px;"><i class="fa fa-comment"></i></a>
+            <a href="" target="blank"style="font-size: 20px;"><i class="fa fa-instagram"></i></a>
           </div>
           <div class="header__top__right__auth">
-            <a href="<%=auth == null ?"signin.jsp":""%>"><i class="fa fa-user"></i></i><%= auth != null ? auth.getTentk():"Đăng nhập"%></a>
+            <a style="font-size: 20px;" href="<%=auth == null ?"signin.jsp":""%>"><i class="fa fa-user"></i></i><%= auth != null ? auth.getTentk():"Đăng nhập"%></a>
             <% if(auth != null) { %>
             <div class="header__top__right__auth__dropdown">
               <a href="/BanBanhKemSinhNhatWebProject/MyOrder" method="get" class="dropdown-item">Đơn hàng của tôi</a>

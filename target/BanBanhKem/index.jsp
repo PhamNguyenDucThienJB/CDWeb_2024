@@ -46,7 +46,7 @@
 <div class="humberger__menu__overlay"></div>
 <div class="humberger__menu__wrapper">
     <div class="humberger__menu__logo">
-        <a href="#"><img src="img/logo_web.jpg" alt=""></a>
+        <a href="#"><img src="img/Logo_Web_main.png" alt=""></a>
     </div>
     <div class="humberger__menu__cart">
         <ul>
