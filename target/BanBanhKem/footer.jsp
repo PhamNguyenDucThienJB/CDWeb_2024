@@ -1,7 +1,8 @@
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-<footer class="footer spad">
+<footer class="footer spad"style="background: url(//theme.hstatic.net/1000313040/1000406925/14/footer-bg.png?v=2076);
+">
   <div class="container">
     <div class="row">
       <div class="col-lg-3 col-md-6 col-sm-6">
@@ -40,21 +41,22 @@
             <button type="submit" class="site-btn">Đăng ký</button>
 
           </form>
-
-
-
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="footer__copyright">
-          <div class="footer__copyright__text"><p style="    color: wheat;"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyrights &copy;<script>document.write(new Date().getFullYear());</script>2023 by Bakery. <i class="fa fa-heart" aria-hidden="true"> </i> Khoa CNTT - ĐH Nông Lâm TP HCM</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
-          <div class="footer__copyright__payment"></div>
-        </div>
+  </div>
       </div>
     </div>
   </div>
+  </div>
 </footer>
+<div class="row" style="background: #421a1f">
+  <div class="col-lg-12">
+    <div class="footer__copyright">
+      <div class="footer__copyright__text"><p style="  color: wheat;"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        Copyrights &copy;<script>document.write(new Date().getFullYear());</script> by Bakery. <i class="fa fa-heart" aria-hidden="true"> </i> Khoa CNTT - ĐH Nông Lâm TP HCM</a>
+        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
+      <div class="footer__copyright__payment"></div>
+    </div>
+  </div>
+</div>
 <!-- Footer Section End -->
 <!-- back to top btn -->
 <a href="#" class="btn-to-top back-to-top"><i class="fa fa-angle-double-up"></i></a>

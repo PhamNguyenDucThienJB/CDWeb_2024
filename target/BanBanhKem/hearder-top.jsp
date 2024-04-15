@@ -9,7 +9,7 @@
 <%--<div class="rang_cua"></div>--%>
 <!-- rang cua -->
 <%--header-top--%>
-<div class="header__top">
+<div class="header__top" style="    padding-bottom: 60px;">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-md-6">
