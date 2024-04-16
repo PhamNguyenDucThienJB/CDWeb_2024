@@ -9,14 +9,16 @@
 <%--<div class="rang_cua"></div>--%>
 <!-- rang cua -->
 <%--header-top--%>
-<div class="header__top" style="    padding-bottom: 60px;">
+<div class="header__top" style="padding-top: 20px;padding-bottom: 20px  ;border-radius: 0px 0px 15px 15px">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-md-6">
         <div class="header__top__left">
           <ul>
-            <li style="color: wheat"><i class="fa fa-envelope"></i>thienpham0712@gmail.com</li>
-            <li style="color: wheat">Miễn phí giao hàng nội thành TP.HCM</li>
+            <li style="color: wheat"><i style="font-size: 30px" class="fa fa-building"></i>Hệ Thống Các Của Hàng</li>
+<%--            <li style="color: wheat">Số Điện Thoại</li>--%>
+            <li style="color: wheat"><i  style="font-size: 30px" class="fa fa-phone"></i>0795035755</li>
+<%--            <li style="color: wheat"><i class="fa fa-envelope"></i>Hệ Thống Các Của Hàng</li>--%>
           </ul>
         </div>
       </div>

@@ -33,7 +33,7 @@
 
 </head>
 
-<body>
+<body style="background: wheat">
 <% User auth = (User) session.getAttribute("auth");%>
 <!-- Page Preloder -->
 <div id="preloder">

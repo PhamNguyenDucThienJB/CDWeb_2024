@@ -154,7 +154,7 @@
                     <div class="hero__search">
                         <div class="hero__search__form ">
                             <form action="ProductFilter" method="get" >
-                                <input style="width: 100%" name="search" type="text" placeholder="Bạn cần bánh gì nè?">
+                                <input style="width: 100%" name="search" type="text" placeholder="Tìm kiếm....">
                                 <button style="border: 2px #421a1f;background: #421a1f" href="ProductFilter" type="submit" class="site-btn"><i class="fa fa-search"></i> <span class="text_search">TÌM KIẾM</span></button>
                             </form>
                         </div>
