@@ -9,26 +9,28 @@
 <%--<div class="rang_cua"></div>--%>
 <!-- rang cua -->
 <%--header-top--%>
-<div class="header__top" style="    padding-bottom: 60px;">
+<div class="header__top" style="padding-top: 20px;padding-bottom: 20px  ;border-radius: 0px 0px 15px 15px">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-md-6">
         <div class="header__top__left">
           <ul>
-            <li style="color: wheat"><i class="fa fa-envelope"></i>thienpham0712@gmail.com</li>
-            <li style="color: wheat">Miễn phí giao hàng nội thành TP.HCM</li>
+            <li style="color: wheat"><i style="font-size: 30px" class="fa fa-building"></i>Hệ Thống Các Của Hàng</li>
+<%--            <li style="color: wheat">Số Điện Thoại</li>--%>
+            <li style="color: wheat"><i  style="font-size: 30px" class="fa fa-phone"></i>0795035755</li>
+<%--            <li style="color: wheat"><i class="fa fa-envelope"></i>Hệ Thống Các Của Hàng</li>--%>
           </ul>
         </div>
       </div>
       <div class="col-lg-6 col-md-6">
         <div class="header__top__right">
           <div class="header__top__right__social">
-            <a href="" target="blank"><i class="fa fa-facebook"></i></a>
-            <a href="" target="blank"><i class="fa fa-comment"></i></a>
-            <a href="" target="blank"><i class="fa fa-instagram"></i></a>
+            <a href="" target="blank" style="font-size: 20px;"><i class="fa fa-facebook"></i></a>
+            <a href="" target="blank"style="font-size: 20px;"><i class="fa fa-comment"></i></a>
+            <a href="" target="blank"style="font-size: 20px;"><i class="fa fa-instagram"></i></a>
           </div>
           <div class="header__top__right__auth">
-            <a href="<%=auth == null ?"signin.jsp":""%>"><i class="fa fa-user"></i></i><%= auth != null ? auth.getTentk():"Đăng nhập"%></a>
+            <a style="font-size: 20px;" href="<%=auth == null ?"signin.jsp":""%>"><i class="fa fa-user"></i></i><%= auth != null ? auth.getTentk():"Đăng nhập"%></a>
             <% if(auth != null) { %>
             <div class="header__top__right__auth__dropdown">
               <a href="/BanBanhKemSinhNhatWebProject/MyOrder" method="get" class="dropdown-item">Đơn hàng của tôi</a>

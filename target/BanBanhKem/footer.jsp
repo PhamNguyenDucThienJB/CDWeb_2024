@@ -50,7 +50,7 @@
 <div class="row" style="background: #421a1f">
   <div class="col-lg-12">
     <div class="footer__copyright">
-      <div class="footer__copyright__text"><p style="  color: wheat;"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+      <div style="margin-left: 200px" class="footer__copyright__text"><p style="  color: wheat;"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
         Copyrights &copy;<script>document.write(new Date().getFullYear());</script> by Bakery. <i class="fa fa-heart" aria-hidden="true"> </i> Khoa CNTT - ĐH Nông Lâm TP HCM</a>
         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
       <div class="footer__copyright__payment"></div>
