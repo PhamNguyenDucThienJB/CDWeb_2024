@@ -1206,6 +1206,10 @@ ol {
 	color: #ffffff;
 }
 
+
+.back_round_wheat{
+	background: wheat;
+}
 /*---------------------
   Sidebar
 -----------------------*/
@@ -2202,11 +2206,11 @@ ol {
 }
 
 .primary-btn.cart-btn {
-	color: #ff96b7;
+	color: whitesmoke;
 	font-size: 16px;
 	font-style: italic;
 	text-decoration: underline;
-	background: #ffffff;
+	background:wheat;
 }
 
 .primary-btn.cart-btn span {
@@ -2639,7 +2643,7 @@ ol {
 	font-size: 16px;
 	color: #6f6f6f;
 	padding-left: 15px;
-	border: 2px solid #ff96b7;
+	border: 2px solid #421a1f;
 	border-radius: 7px;
 }
 
@@ -2650,7 +2654,7 @@ ol {
 .blog__sidebar__search form button {
 	font-size: 16px;
 	color: #6f6f6f;
-	background: #ff96b7;
+	background: #421a1f;
 	border: none;
 	border-radius: 5px;
 	position: absolute;
