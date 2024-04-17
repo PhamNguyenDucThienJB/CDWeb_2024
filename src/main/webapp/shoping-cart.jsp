@@ -6,7 +6,7 @@
 <%@ page import="vn.edu.hcmuaf.fit.model.FavoriteProduct" %>
 <!DOCTYPE html>
 <%@ page contentType="text/html;charsetUTF-8" language="java" pageEncoding="utf-8" %>
-<html lang="xzz">
+<html lang="xzz" class="back_round_wheat">
 <meta http-equiv="Content-Type" charset="UTF-8">
 
 <head>
@@ -105,7 +105,7 @@
 </div>
 <!-- Humberger End -->
 <!-- Header Section Begin -->
-<header class="header">
+<header class="header back_round_wheat">
     <jsp:include page="hearder-top.jsp"></jsp:include>
 
     <div class="container">
@@ -148,7 +148,7 @@
 </header>
 <!-- Header Section End -->
 <!-- Hero Section Begin -->
-<section class="hero">
+<section class="hero back_round_wheat">
     <div class="container">
         <div class="row">
             <div class="col-lg-3"></div>
@@ -156,7 +156,7 @@
                 <div class="hero__search">
                     <div class="hero__search__form ">
                         <form action="ProductFilter" method="get">
-                            <input name="search" type="text" placeholder="Bạn cần bánh gì nè?">
+                            <input style="width: 100%" name="search" type="text" placeholder="Tìm Kiếm ...">
                             <button href="ProductFilter" type="submit" class="site-btn"><i class="fa fa-search"></i> <span class="text_search">TÌM KIẾM</span></button>
                         </form>
                     </div>
@@ -197,7 +197,7 @@
 <!-- Breadcrumb Section End -->
 
 <!-- Shoping Cart Section Begin -->
-<section class="shoping-cart spad" id="shoping-cart">
+<section class="shoping-cart spad back_round_wheat" id="shoping-cart">
     <div class="container" id="container-cart">
         <%if(status==1){%>
         <div class="cartEmpty" name="cartEmpty">
