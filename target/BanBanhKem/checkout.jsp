@@ -7,7 +7,7 @@
 <%@ page import="vn.edu.hcmuaf.fit.service.CustomerService" %>
 <!DOCTYPE html>
 <%@ page contentType="text/html;charsetUTF-8" language="java" pageEncoding="utf-8"%>
-<html lang="xzz">
+<html lang="xzz" class="back_round_wheat">
 <meta http-equiv="Content-Type" charset="UTF-8">
 
 <head>
@@ -101,7 +101,7 @@
 </div>
 <!-- Humberger End -->
 <!-- Header Section Begin -->
-<header class="header">
+<header class="header back_round_wheat" >
     <jsp:include page="hearder-top.jsp"></jsp:include>
     <div class="container">
         <div class="row">
@@ -144,7 +144,7 @@
 </header>
 <!-- Header Section End -->
   <!-- Hero Section Begin -->
-  <section class="hero">
+  <section class="hero back_round_wheat">
       <div class="container">
         <div class="row">
             <div class="col-lg-3"></div>
@@ -193,7 +193,7 @@
     <!-- Breadcrumb Section End -->
 
     <!-- Checkout Section Begin -->
-    <section class="checkout spad">
+    <section class="checkout spad back_round_wheat">
         <div class="container">
             <div class="checkout__form">
                 <h4>Thông Tin Thanh Toán</h4>
