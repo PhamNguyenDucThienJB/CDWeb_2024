@@ -8,7 +8,7 @@
 <%@ page import="java.util.ArrayList" %>
 <!DOCTYPE html>
 <%@ page contentType="text/html;charsetUTF-8" language="java" pageEncoding="utf-8"%>
-<html lang="xzz">
+<html lang="xzz" class="back_round_wheat">
 <meta http-equiv="Content-Type" charset="UTF-8">
 
 
@@ -105,7 +105,7 @@
 <!-- Humberger End -->
 
 <!-- Header Section Begin -->
-<header class="header">
+<header class="header back_round_wheat">
     <jsp:include page="hearder-top.jsp"></jsp:include>
     <div class="container">
         <div class="row">
@@ -148,7 +148,7 @@
 <!-- Header Section End -->
 
 <!-- Hero Section Begin -->
-<section class="hero hero-normal">
+<section class="hero hero-normal back_round_wheat">
     <div class="container">
         <div class="row">
             <div class="col-lg-3"></div>
@@ -167,7 +167,7 @@
                             <a href="tel:0987654321" class="fa fa-phone cursor"></a>
                         </div>
                         <div class="hero__search__phone__text">
-                            <h5>+84 987654321</h5>
+                            <h5>+84 </h5>
                             <span>Mở cửa từ 8h - 22h</span>
                         </div>
                     </div>
