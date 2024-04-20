@@ -219,11 +219,11 @@ ol {
 	text-transform: uppercase;
 	display: inline-block;
 	padding: 13px 30px 12px;
-	background: #ff96b7;
+	background:#421a1f;
 	border: none;
 }
 .btn_pink{
-	background-color: #ff96b7;
+	background-color: #421a1f;
 	color: #fff;
 }
 .btn-rm{
@@ -315,7 +315,7 @@ ol {
 
 .header__top {
 	/* background: #f5f5f5; */
-	background: #ff96b7;
+	background: rgba(74, 29, 34, 0.9);
 
 }
 
@@ -324,7 +324,7 @@ ol {
 }
 
 .header__top__left ul li {
-	font-size: 14px;
+	font-size: 20px;
 	color: #1c1c1c;
 	display: inline-block;
 	margin-right: 45px;
@@ -352,7 +352,7 @@ ol {
 
 .header__top__left ul li i {
 	color: #252525;
-	margin-right: 5px;
+	margin-right: 10px;
 }
 
 .header__top__right {
@@ -478,20 +478,20 @@ ol {
 .header__top__right__auth a i {
 	margin-right: 6px;
 }
-.header__top__right__auth__dropdown{
-	position: absolute;
-	background-color: #fff;
-	color: #000;
-	width: auto;
-	height: auto;
-	font-size: 14px;
-	box-shadow:  0px 0px 10px rgb(91 31 139 / 30%);
-	top: 26px;
-	right: 0;
-	z-index: 1000;
-	display: none;
-	text-align: center;
-}
+.header__top__right__auth__dropdown {
+	 position: absolute;
+	 background-color: rgb(255, 255, 255); /* Màu trắng */
+	 color: rgb(0, 0, 0); /* Màu đen */
+	 width: auto;
+	 height: auto;
+	 font-size: 14px;
+	 box-shadow: 0px 0px 10px rgba(91, 31, 139, 0.3); /* Màu tím có độ mờ */
+	 top: 26px;
+	 right: 0;
+	 z-index: 1000;
+	 display: none;
+	 text-align: center;
+ }
 
 .header__top__right__auth:hover .header__top__right__auth__dropdown{
 	display: block;
@@ -511,6 +511,7 @@ ol {
     display: block;
     position: absolute;
     z-index: 3;
+
 
 }
 
@@ -572,7 +573,7 @@ ol {
 }
 
 .header__menu ul li.active a {
-	color: #ff96b7;
+	color: #c0c906;
 }
 
 .header__menu ul li:hover .header__menu__dropdown {
@@ -582,7 +583,7 @@ ol {
 }
 
 .header__menu ul li:hover>a {
-	color: #ff96b7;
+	color: #c0c906;
 }
 
 .header__menu ul li:last-child {
@@ -755,7 +756,7 @@ ol {
 .hero__search__form {
 	width: 601px;
 	height: 50px;
-	border: 2px solid #ff96b7;
+	border: 2px solid rgba(74, 29, 34, 0.9);
 	position: relative;
 	float: left;
 	border-radius: 5px;
@@ -807,7 +808,7 @@ ol {
 	right: -1px;
 	top: -1px;
 	height: 50px;
-	border: 2px solid #ff96b7;
+	/*border: 2px solid #ff96b7;*/
 	border-radius: 3px;
 }
 
@@ -1205,17 +1206,21 @@ ol {
 	color: #ffffff;
 }
 
+
+.back_round_wheat{
+	background: wheat;
+}
 /*---------------------
   Sidebar
 -----------------------*/
 .btn_next_slide{
 	line-height: 30px;
-	background-color: #ff96b7;
+	background-color: #421a1f;
 	border: none;
 	border-radius: 50%;
 }
 .btn_next_slide:hover{
-	background-color: #ff96b7;
+	background-color: #421a1f;
 	border-color: #fff;
 }
 .sidebar__item {
@@ -2201,11 +2206,11 @@ ol {
 }
 
 .primary-btn.cart-btn {
-	color: #ff96b7;
+	color: whitesmoke;
 	font-size: 16px;
 	font-style: italic;
 	text-decoration: underline;
-	background: #ffffff;
+	background:wheat;
 }
 
 .primary-btn.cart-btn span {
@@ -2638,7 +2643,7 @@ ol {
 	font-size: 16px;
 	color: #6f6f6f;
 	padding-left: 15px;
-	border: 2px solid #ff96b7;
+	border: 2px solid #421a1f;
 	border-radius: 7px;
 }
 
@@ -2649,7 +2654,7 @@ ol {
 .blog__sidebar__search form button {
 	font-size: 16px;
 	color: #6f6f6f;
-	background: #ff96b7;
+	background: #421a1f;
 	border: none;
 	border-radius: 5px;
 	position: absolute;
@@ -2880,7 +2885,7 @@ ol {
 -----------------------*/
 
 .footer {
-	background: #F3F6FA;
+	background: #421a1f;
 	padding-top: 70px;
 	padding-bottom: 0;
 }
@@ -2910,7 +2915,7 @@ ol {
 }
 
 .footer__widget h6 {
-	color: #1c1c1c;
+	color: wheat;
 	font-weight: 700;
 	margin-bottom: 10px;
 }
@@ -2925,7 +2930,7 @@ ol {
 }
 
 .footer__widget ul li a {
-	color: #1c1c1c;
+	color: wheat;
 	font-size: 14px;
 	line-height: 32px;
 }
@@ -3015,6 +3020,7 @@ ol {
 }
 #about li{
 	font-size: 14px;
+	color: wheat;
 }
 .cake-footer{
 	margin-top: 50px;
@@ -3216,7 +3222,7 @@ ol {
 	z-index: 11;
   }
 .btn-to-top{
-background-color: #ff96b7;
+background-color: #421a1f;
 color: #fff;
 padding: 10px 20px;
 border-radius: 50%;
@@ -3856,7 +3862,7 @@ font-size: 24px;
 }
 .container-91{
 	min-height: 50%;
-	background: #f5f5f5;
+	background: wheat;
 }
 .text-dark{
 	font-size:16px;

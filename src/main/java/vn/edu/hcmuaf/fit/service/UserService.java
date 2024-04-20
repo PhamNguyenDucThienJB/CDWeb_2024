@@ -142,8 +142,8 @@ public class UserService {
         return  (int) Math.floor(((Math.random() * 899999) + 100000));
     }
     public  static void sendMail(String toEmail, int code) throws MessagingException, UnsupportedEncodingException {
-        String fromEmail= "group27web@gmail.com";
-        String pass =  "imvwmzsvffvjtgpr";
+        String fromEmail= "thienpham0712@gmail.com";
+        String pass =  "ctpl eldt pkjs lcof";
         Properties props = new Properties();
 
         props.put("mail.smtp.host", "smtp.gmail.com"); //SMTP Host
