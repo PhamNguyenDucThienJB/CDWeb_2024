@@ -140,7 +140,7 @@
 </header>
 <!-- Header Section End -->
     <!-- Hero Section Begin -->
-<section class="hero hero-normal">
+<section class="hero hero-normal" style="background: wheat">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3"></div>
@@ -188,8 +188,8 @@
     <!-- Breadcrumb Section End -->
 
     <!-- about Section Begin -->
-    <section class="about spad">
-        <div class="container">
+    <section class="about spad" style="background: wheat">
+        <div class="container" style="background: wheat">
             <div class="row">
                 <div class="about__text">
                         <h4>1. Chúng tôi là Tiệm bánh hạnh phúc</h4>
