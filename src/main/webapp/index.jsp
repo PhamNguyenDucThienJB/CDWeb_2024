@@ -13,7 +13,7 @@
 
 <head>
 
-    <title>Shop Bánh Kem | Trang chủ</title>
+    <title>Shop Bánh Kem | Trang chủ Lam Thu Confict</title>
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
