@@ -96,7 +96,7 @@
 </div>
 <!-- Humberger End -->
 <!-- Header Section Begin -->
-<header class="header">
+<header class="header" style = "background:wheat">
     <jsp:include page="hearder-top.jsp"></jsp:include>
 
     <div class="container">
