@@ -1,0 +1,1525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="BanBanhKemSinhNhatWebProject-master:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8ed8b775-8c89-4471-9856-5c914dc13564" name="Changes" comment="Changes">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/bean/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/Account/ForgotPassword.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/Account/SignOut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/Account/Signin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/Account/Signup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/Account/UpdatePassword.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/AddComment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/AddFeedback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/AddNewOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/AddToCart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/AddToFavorite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/BlogChuDe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/BlogDanhMuc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/Blogdetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/EditUserProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/Index.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/ListBlog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/ListProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/MyOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/ProductDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/ProductFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/RemoveFavorites.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/RemoveOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/RemoveToCart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/Sort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/UpdateCart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/admin/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/admin/AdminLockCus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/admin/Blog/EditBlog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/admin/Blog/UpdateBlog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/admin/DeleteCommentListReceipt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/admin/DeleteUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/admin/EditUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/admin/ListBlog_admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/admin/ListCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/admin/ListReceipt_Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/admin/ListReceipt_full_Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/admin/Product/AddImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/admin/Product/AddProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/admin/Product/DeleteComment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/admin/Product/DeleteImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/admin/Product/DeleteProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/admin/Product/Edit_Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/admin/Product/ListProduct_Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/admin/Product/UpdateDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/admin/Product/UpdateImg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/admin/Product/UpdateProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/admin/UpdateRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/admin/adminChangeStateOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/admin/adminRemoveOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/admin/adminRemoveOrderCTKH.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/admin/approval_Bill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/controller/admin/cthd_Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/db/DBConnect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/db/DBProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/db/JDBIConnector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/filter/AccFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/filter/Utf8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/model/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/model/Blog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/model/CTHD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/model/Comment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/model/FavoriteProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/model/Feedback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/model/ItemProductInCart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/model/LoaiBanh.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/model/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/model/ProductDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/model/ProductDiscount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/model/Receipt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/model/Ship.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/service/BlogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/service/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/service/FeedbackService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/service/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/service/ProductDiscountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/service/ReceiptService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/hcmuaf/fit/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/fdsfds.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/about.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/add-blog.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/add-product.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/admin-web.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/css/admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/css/dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/css/dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/css/ionicons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/css/jquery.mCustomScrollbar.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/css/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/customers.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/edit-blog.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/edit-product.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/edit-user.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/img/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/img/testimonial-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/img/testimonial-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/img/user.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/img/user.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/js/admin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/js/jquery-3.5.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/js/jquery.mCustomScrollbar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/js/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/js/jquery.mousewheel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/js/select2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/lib/chart/chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/lib/easing/easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/lib/easing/easing.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/lib/owlcarousel/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/lib/owlcarousel/assets/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/lib/owlcarousel/assets/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/lib/owlcarousel/assets/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/lib/owlcarousel/assets/owl.theme.default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/lib/owlcarousel/assets/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/lib/owlcarousel/assets/owl.theme.green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/lib/owlcarousel/assets/owl.theme.green.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/lib/owlcarousel/assets/owl.video.play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/lib/owlcarousel/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/lib/owlcarousel/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/lib/tempusdominus/css/tempusdominus-bootstrap-4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/lib/tempusdominus/js/moment-timezone.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/lib/tempusdominus/js/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/lib/tempusdominus/js/tempusdominus-bootstrap-4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/lib/waypoints/links.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/lib/waypoints/waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/list-blogs.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/list-order.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/list-products.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/receipt-details.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/blog-details.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/blog-filter.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/blog.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/checkout.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/contact.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/elegant-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/nice-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/slicknav.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/editUserProfile.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/favorites.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fonts/ElegantIcons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fonts/ElegantIcons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fonts/ElegantIcons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/hearder-top.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/Icon/hotsp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/Icon/newsp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/Logo_Cake-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/Logo_Web_main.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/about/anh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/about/anh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/about/anh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/banner/breadcrumb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/blog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/blog/blog1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/blog/blog2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/blog/blog3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/blog/blog4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/blog/details/details1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/blog/details/details2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/blog/details/details3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/blog/details/details4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/blog/details/github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/blog/sidebar/blog1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/blog/sidebar/blog2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/blog/sidebar/blog3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/blog/sidebar/sr-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/blog/sidebar/sr-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/blog/sidebar/sr-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/footer/img-footer.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/hero/carousel-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/hero/carousel-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/logo_web.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/null.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/payment-item.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B001/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B001/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B001/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B001/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B002/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B002/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B002/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B002/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B003/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B003/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B003/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B003/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B004/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B004/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B004/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B005/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B005/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B005/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B006/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B006/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B006/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B007/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B007/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B007/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B008/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B008/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B008/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B009/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B009/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B009/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B009/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B010/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B010/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B010/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B010/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B011/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B011/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B011/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B011/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B012/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B012/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B012/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B013/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B013/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B014/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B014/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B014/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B015/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B015/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B015/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B016/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B016/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B016/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B016/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B017/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B017/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B017/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B017/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B018/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B018/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B018/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B018/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B019/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B019/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B019/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B020/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B020/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B020/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B020/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B021/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B021/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B021/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B022/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B022/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B022/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B022/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B023/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B023/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B023/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B023/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B024/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B024/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B024/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B025/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B025/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B025/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B026/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B026/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B026/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B026/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B027/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B027/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B027/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B027/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B028/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B028/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B028/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B029/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B029/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B029/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B030/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B030/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B030/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B031/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B031/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B031/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B031/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B032/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B032/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B032/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B032/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B033/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B033/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B033/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B034/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B034/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B034/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B035/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B035/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B035/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B035/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B036/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B036/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B036/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B036/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B037/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B037/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B037/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B037/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B038/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B038/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B038/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B038/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B039/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B039/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B039/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B039/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B040/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B040/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B040/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B040/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B041/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B041/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B041/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B041/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B042/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B042/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B042/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B043/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B043/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B043/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B044/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B044/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B044/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B045/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B045/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B045/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B046/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B046/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B046/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B047/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B047/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B047/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B047/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B048/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B048/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B048/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B049/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B049/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B049/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B050/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B050/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B050/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B051/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B051/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B051/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B052/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B052/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B052/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B052/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B053/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B053/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B053/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B053/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B054/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B054/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B054/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B054/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B055/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B055/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B055/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B055/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B056/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B056/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B056/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B057/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B057/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B057/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B058/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B058/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B058/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B058/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B059/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B059/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B059/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B059/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B060/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B060/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B060/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B060/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B061/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B061/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B061/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B062/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B062/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B062/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B062/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B062/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B063/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B063/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B063/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B063/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B064/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B064/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B064/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B064/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B065/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B065/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B065/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B066/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B066/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B066/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B067/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B067/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B067/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B067/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B068/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B068/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B068/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B069/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B069/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B069/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B069/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B070/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B070/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B070/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B071/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B071/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B071/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B072/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B072/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B072/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B073/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B073/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B073/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B074/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B074/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B074/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B075/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B075/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B075/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B075/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B076/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B076/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B076/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B077/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B077/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B077/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B078/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B078/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B078/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B078/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B079/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B079/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B079/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B079/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B080/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B080/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B080/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B080/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B081/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B081/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B081/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B081/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B082/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B082/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B082/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B082/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B083/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B083/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B083/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B084/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B084/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B084/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B085/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B085/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B085/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B086/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B086/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B086/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B087/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B087/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B087/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B088/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B088/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B088/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B089/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B089/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B089/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B090/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B090/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B090/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B091/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B091/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B091/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B091/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B092/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B092/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B092/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B092/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B093/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B093/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B093/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B093/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B094/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B094/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B094/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B095/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B095/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B095/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B095/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B096/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B096/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B096/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B096/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B097/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B097/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B097/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B097/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B098/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B098/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B098/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B099/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B099/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B099/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B100/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B100/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B100/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B99/bg-011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B99/icon-256x256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/product/B99/user2-160x160.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/rang-cua.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/Điện thoại đỏ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/jquery.nice-select.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/jquery.slicknav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/mixitup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/order.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/product-Filter.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/shop-details.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/shop-product.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/shoping-cart.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/signin.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/signup.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/bean/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/Account/ForgotPassword.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/Account/SignOut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/Account/Signin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/Account/Signup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/Account/UpdatePassword.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/AddComment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/AddFeedback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/AddNewOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/AddToCart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/AddToFavorite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/BlogChuDe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/BlogDanhMuc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/Blogdetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/EditUserProfile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/Index.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/ListBlog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/ListProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/MyOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/ProductDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/ProductFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/RemoveFavorites.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/RemoveOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/RemoveToCart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/Sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/UpdateCart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/admin/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/admin/AdminLockCus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/admin/Blog/EditBlog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/admin/Blog/UpdateBlog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/admin/DeleteCommentListReceipt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/admin/DeleteUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/admin/EditUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/admin/ListBlog_admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/admin/ListCustomer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/admin/ListReceipt_Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/admin/ListReceipt_full_Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/admin/Product/AddImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/admin/Product/AddProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/admin/Product/DeleteComment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/admin/Product/DeleteImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/admin/Product/DeleteProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/admin/Product/Edit_Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/admin/Product/ListProduct_Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/admin/Product/UpdateDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/admin/Product/UpdateImg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/admin/Product/UpdateProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/admin/UpdateRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/admin/adminChangeStateOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/admin/adminRemoveOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/admin/adminRemoveOrderCTKH.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/admin/approval_Bill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/controller/admin/cthd_Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/db/DBConnect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/db/DBProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/db/JDBIConnector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/filter/AccFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/filter/Utf8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/model/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/model/Blog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/model/CTHD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/model/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/model/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/model/FavoriteProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/model/Feedback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/model/ItemProductInCart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/model/LoaiBanh.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/model/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/model/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/model/ProductDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/model/ProductDiscount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/model/ProductImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/model/Receipt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/model/Ship.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/service/BlogService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/service/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/service/FeedbackService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/service/ProductDiscountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/service/ReceiptService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/service/UserService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/classes/vn/edu/hcmuaf/fit/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/lib/activation-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/lib/antlr4-runtime-4.9.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/lib/caffeine-3.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/lib/commons-fileupload-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/lib/commons-io-2.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/lib/geantyref-1.3.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/lib/javax.mail-api-1.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/lib/jdbi3-core-3.24.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/lib/mail-1.4.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/lib/mysql-connector-java-8.0.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/lib/protobuf-java-3.11.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/lib/slf4j-api-1.7.31.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/about.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/add-blog.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/add-product.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/admin-web.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/css/admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/css/dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/css/dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/css/ionicons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/css/jquery.mCustomScrollbar.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/css/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/customers.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/edit-blog.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/edit-product.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/edit-user.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/img/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/img/testimonial-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/img/testimonial-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/img/user.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/img/user.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/js/admin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/js/jquery-3.5.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/js/jquery.mCustomScrollbar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/js/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/js/jquery.mousewheel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/js/select2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/lib/chart/chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/lib/easing/easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/lib/easing/easing.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/lib/owlcarousel/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/lib/owlcarousel/assets/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/lib/owlcarousel/assets/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/lib/owlcarousel/assets/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/lib/owlcarousel/assets/owl.theme.default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/lib/owlcarousel/assets/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/lib/owlcarousel/assets/owl.theme.green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/lib/owlcarousel/assets/owl.theme.green.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/lib/owlcarousel/assets/owl.video.play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/lib/owlcarousel/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/lib/owlcarousel/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/lib/tempusdominus/css/tempusdominus-bootstrap-4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/lib/tempusdominus/js/moment-timezone.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/lib/tempusdominus/js/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/lib/tempusdominus/js/tempusdominus-bootstrap-4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/lib/waypoints/links.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/lib/waypoints/waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/list-blogs.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/list-order.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/list-products.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/admin/receipt-details.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/blog-details.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/blog-filter.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/blog.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/checkout.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/contact.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/css/elegant-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/css/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/css/nice-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/css/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/css/slicknav.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/editUserProfile.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/favorites.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/fonts/ElegantIcons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/fonts/ElegantIcons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/fonts/ElegantIcons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/hearder-top.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/Icon/hotsp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/Icon/newsp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/Logo_Cake-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/Logo_Web_main.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/about/anh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/about/anh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/about/anh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/banner/breadcrumb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/blog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/blog/blog1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/blog/blog2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/blog/blog3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/blog/blog4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/blog/details/details1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/blog/details/details2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/blog/details/details3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/blog/details/details4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/blog/details/github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/blog/sidebar/blog1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/blog/sidebar/blog2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/blog/sidebar/blog3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/blog/sidebar/sr-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/blog/sidebar/sr-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/blog/sidebar/sr-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/cart/cart1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/cart/cart2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/cart/cart3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/footer/img-footer.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/hero/carousel-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/hero/carousel-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/logo_web.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/null.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/payment-item.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B001/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B001/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B001/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B001/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B001/batngochua.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B002/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B002/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B002/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B002/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B003/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B003/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B003/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B003/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B004/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B004/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B004/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B005/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B005/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B005/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B006/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B006/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B006/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B007/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B007/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B007/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B008/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B008/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B008/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B009/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B009/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B009/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B009/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B010/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B010/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B010/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B010/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B011/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B011/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B011/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B011/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B012/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B012/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B012/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B013/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B013/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B014/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B014/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B014/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B015/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B015/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B015/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B016/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B016/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B016/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B016/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B017/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B017/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B017/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B017/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B018/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B018/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B018/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B018/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B019/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B019/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B019/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B020/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B020/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B020/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B020/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B021/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B021/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B021/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B022/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B022/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B022/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B022/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B023/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B023/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B023/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B023/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B024/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B024/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B024/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B025/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B025/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B025/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B026/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B026/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B026/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B026/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B027/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B027/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B027/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B027/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B028/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B028/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B028/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B029/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B029/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B029/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B030/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B030/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B030/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B031/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B031/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B031/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B031/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B032/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B032/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B032/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B032/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B033/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B033/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B033/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B034/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B034/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B034/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B035/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B035/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B035/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B035/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B036/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B036/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B036/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B036/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B037/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B037/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B037/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B037/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B038/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B038/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B038/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B038/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B039/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B039/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B039/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B039/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B040/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B040/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B040/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B040/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B041/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B041/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B041/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B041/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B042/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B042/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B042/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B043/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B043/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B043/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B044/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B044/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B044/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B045/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B045/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B045/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B046/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B046/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B046/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B047/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B047/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B047/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B047/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B048/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B048/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B048/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B049/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B049/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B049/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B050/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B050/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B050/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B051/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B051/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B051/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B052/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B052/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B052/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B052/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B053/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B053/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B053/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B053/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B054/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B054/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B054/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B054/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B055/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B055/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B055/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B055/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B056/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B056/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B056/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B057/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B057/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B057/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B058/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B058/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B058/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B058/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B059/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B059/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B059/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B059/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B060/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B060/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B060/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B060/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B061/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B061/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B061/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B062/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B062/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B062/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B062/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B062/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B063/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B063/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B063/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B063/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B064/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B064/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B064/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B064/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B065/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B065/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B065/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B066/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B066/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B066/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B067/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B067/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B067/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B067/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B068/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B068/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B068/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B069/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B069/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B069/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B069/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B070/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B070/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B070/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B071/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B071/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B071/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B072/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B072/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B072/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B073/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B073/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B073/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B074/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B074/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B074/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B075/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B075/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B075/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B075/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B076/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B076/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B076/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B077/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B077/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B077/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B078/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B078/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B078/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B078/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B079/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B079/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B079/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B079/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B080/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B080/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B080/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B080/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B081/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B081/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B081/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B081/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B082/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B082/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B082/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B082/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B083/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B083/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B083/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B084/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B084/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B084/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B085/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B085/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B085/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B086/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B086/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B086/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B087/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B087/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B087/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B088/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B088/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B088/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B089/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B089/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B089/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B090/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B090/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B090/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B091/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B091/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B091/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B091/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B092/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B092/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B092/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B092/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B093/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B093/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B093/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B093/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B094/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B094/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B094/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B095/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B095/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B095/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B095/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B096/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B096/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B096/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B096/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B097/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B097/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B097/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B097/banh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B098/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B098/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B098/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B099/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B099/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B099/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B100/banh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B100/banh2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B100/banh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B101/batngochua.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B101/baydatsinhnhat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B101/green-tea.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B101/lịch thi.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B101/rmi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B101/shcd1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B99/bg-011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B99/icon-256x256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/product/B99/user2-160x160.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/rang-cua.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/img/Điện thoại đỏ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/js/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/js/jquery.nice-select.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/js/jquery.slicknav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/js/mixitup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/order.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/product-Filter.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/shop-details.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/shop-product.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/shoping-cart.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/signin.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanBanhKem/signup.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/bean/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/Account/ForgotPassword.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/Account/SignOut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/Account/Signin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/Account/Signup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/Account/UpdatePassword.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/AddComment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/AddFeedback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/AddNewOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/AddToCart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/AddToFavorite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/BlogChuDe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/BlogDanhMuc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/Blogdetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/EditUserProfile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/Index.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/ListBlog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/ListProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/MyOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/ProductDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/ProductFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/RemoveFavorites.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/RemoveOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/RemoveToCart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/Sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/UpdateCart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/admin/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/admin/AdminLockCus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/admin/Blog/EditBlog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/admin/Blog/UpdateBlog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/admin/DeleteCommentListReceipt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/admin/DeleteUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/admin/EditUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/admin/ListBlog_admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/admin/ListCustomer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/admin/ListReceipt_Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/admin/ListReceipt_full_Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/admin/Product/AddImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/admin/Product/AddProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/admin/Product/DeleteComment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/admin/Product/DeleteImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/admin/Product/DeleteProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/admin/Product/Edit_Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/admin/Product/ListProduct_Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/admin/Product/UpdateDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/admin/Product/UpdateImg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/admin/Product/UpdateProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/admin/UpdateRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/admin/adminChangeStateOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/admin/adminRemoveOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/admin/adminRemoveOrderCTKH.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/admin/approval_Bill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/controller/admin/cthd_Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/db/DBConnect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/db/DBProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/db/JDBIConnector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/filter/AccFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/filter/Utf8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/model/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/model/Blog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/model/CTHD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/model/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/model/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/model/FavoriteProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/model/Feedback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/model/ItemProductInCart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/model/LoaiBanh.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/model/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/model/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/model/ProductDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/model/ProductDiscount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/model/Receipt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/model/Ship.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/service/BlogService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/service/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/service/FeedbackService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/service/ProductDiscountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/service/ReceiptService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/service/UserService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/edu/hcmuaf/fit/service/UserService.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="thien" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LoSjAKJA0Y7O3jEB3XZ85qRFkx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Dowloads_____Place_______/forumsrc/src" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\BanBanhKemSinhNhatWebProject-master\src\main\webapp\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\BanBanhKemSinhNhatWebProject-master\src\main\webapp\img" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="excludedTypes">
+      <set>
+        <option value="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" />
+        <option value="TomeeConfiguration" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="BanBanhKemSinhNhatWebProject-master" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="BanBanhKemSinhNhatWebProject-master" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.65" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.65" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/BanBanhKemSinhNhatWebProject/Index" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="BanBanhKemSinhNhatWebProject-master:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/BanBanhKemSinhNhatWebProject" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="228e596e-39c8-4c38-a79b-1143470ddd6f" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="65367" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="BanBanhKemSinhNhatWebProject-master:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ed8b775-8c89-4471-9856-5c914dc13564" name="Changes" comment="" />
+      <created>1676536077422</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676536077422</updated>
+      <workItem from="1676536081308" duration="386000" />
+      <workItem from="1676536487236" duration="1027000" />
+      <workItem from="1711199824494" duration="1594000" />
+      <workItem from="1711201987424" duration="169000" />
+      <workItem from="1711243772884" duration="382000" />
+      <workItem from="1712319331435" duration="25000" />
+      <workItem from="1712319555430" duration="25000" />
+      <workItem from="1712319617044" duration="2000" />
+      <workItem from="1712563314955" duration="396000" />
+      <workItem from="1712563985662" duration="712000" />
+      <workItem from="1712652840779" duration="1405000" />
+      <workItem from="1712912873729" duration="714000" />
+      <workItem from="1713079309825" duration="3952000" />
+      <workItem from="1713161490563" duration="3735000" />
+      <workItem from="1713165457959" duration="2097000" />
+      <workItem from="1713178737619" duration="2354000" />
+      <workItem from="1713255519487" duration="4002000" />
+      <workItem from="1713343783117" duration="1977000" />
+      <workItem from="1713424044781" duration="1850000" />
+      <workItem from="1713600599005" duration="551000" />
+      <workItem from="1713601251090" duration="611000" />
+      <workItem from="1713602115623" duration="4931000" />
+      <workItem from="1713609305498" duration="933000" />
+      <workItem from="1713662053477" duration="1474000" />
+      <workItem from="1713791094325" duration="1216000" />
+      <workItem from="1713835741221" duration="353000" />
+      <workItem from="1715241369239" duration="31000" />
+      <workItem from="1715241998347" duration="548000" />
+      <workItem from="1715243673680" duration="5167000" />
+      <workItem from="1715488289206" duration="391000" />
+      <workItem from="1716365978431" duration="211000" />
+      <workItem from="1716367059447" duration="706000" />
+      <workItem from="1716391146146" duration="353000" />
+    </task>
+    <task id="LOCAL-00001" summary="Changes">
+      <created>1713663318686</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713663318686</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="kiet" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
+  </component>
+</project>
