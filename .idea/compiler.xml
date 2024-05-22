@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="BanBanhKemSinhNhatWebProject" />
         <module name="BanBanhKem" />
-        <module name="BanBanhKemSinhNhatWebProject-master" />
       </profile>
     </annotationProcessing>
   </component>

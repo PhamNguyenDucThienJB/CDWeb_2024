@@ -3,7 +3,7 @@ package vn.edu.hcmuaf.fit.bean;
 
 import java.io.Serializable;
 
-public class User implements Serializable {
+public class    User implements Serializable {
     private String id;
     private String email;
     private String pass;
