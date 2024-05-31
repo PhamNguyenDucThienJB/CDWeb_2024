@@ -1,6 +1,6 @@
 ## Xây dựng Website Bán Bánh 
 
 ### Tech
-- ReactJS
+- React
 - Spring Boot
-- MySQL"# Thulam_chuyenDeWeb" 
+- MySQL"# CuyenDeWeb" 
