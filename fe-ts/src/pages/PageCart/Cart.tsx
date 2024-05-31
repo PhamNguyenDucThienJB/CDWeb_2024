@@ -174,7 +174,6 @@ function Cart() {
                     )}
                 </div>
             </div>
-
             <div>
                 <div className="checkout">
                     <div className="checkout-note">
@@ -192,6 +191,7 @@ function Cart() {
                     </div>
                 </div>
             </div>
+            
             {/* <div className="checkout-payment">
                 <span className="checkout-title">Thanh toán</span>
             </div> */}
