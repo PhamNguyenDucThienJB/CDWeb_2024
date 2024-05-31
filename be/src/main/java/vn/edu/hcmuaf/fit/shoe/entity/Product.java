@@ -22,11 +22,7 @@ public class Product {
     private int priceSale ;
     @Column(name = "thumbnail")
     private String thumbnail ;
-    @Column(name = "color")
-    private String color ;
-    @Column(name = "size")
-    private String size ;
-    @Column(name = "type_shoe")
+
     private String typeShoe ;
     @Column(name = "description")
     private String description ;
@@ -46,15 +42,13 @@ public class Product {
 
     }
 
-    public Product( String name, int price, String status, int priceSale, String thumbnail, String color, String size, String typeShoe, String description, Branch branch, List<Image> listImage, List<DetailOrder> listDetailProduct, int quantity) {
+    public Product( String name, int price, String status, int priceSale, String thumbnail, String description, Branch branch, List<Image> listImage, List<DetailOrder> listDetailProduct, int quantity) {
         this.name = name;
         this.price = price;
         this.status = status;
         this.priceSale = priceSale;
         this.thumbnail = thumbnail;
-        this.color = color;
-        this.size = size;
-        this.typeShoe = typeShoe;
+
         this.description = description;
         this.branch = branch;
         this.listImage = listImage;
@@ -110,29 +104,8 @@ public class Product {
         this.thumbnail = thumbnail;
     }
 
-    public String getColor() {
-        return color;
-    }
 
-    public void setColor(String color) {
-        this.color = color;
-    }
 
-    public String getSize() {
-        return size;
-    }
-
-    public void setSize(String size) {
-        this.size = size;
-    }
-
-    public String getTypeShoe() {
-        return typeShoe;
-    }
-
-    public void setTypeShoe(String typeShoe) {
-        this.typeShoe = typeShoe;
-    }
     public String getDescription() {
         return description;
     }
