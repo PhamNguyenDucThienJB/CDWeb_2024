@@ -25,7 +25,7 @@ function Header() {
     };
     // xử lí tìm kiếm sản phẩm
     const inputSearch = async (event: React.ChangeEvent<HTMLInputElement>) => {
-        setSearch(event.target.value.trim());
+        setSearch(event.target.value);
         try {
             if (event.target.value.trim().length === 0) {
                 setShow(false);
@@ -34,7 +34,7 @@ function Header() {
                 if (idSetTimeOut.current) {
                     clearTimeout(idSetTimeOut.current);
                 }
-
+    
                 idSetTimeOut.current = setTimeout(async () => {
                     setSpiner(true);
                     try {
@@ -61,6 +61,7 @@ function Header() {
             console.error("Không tìm thấy " + error);
         }
     };
+    
 
     const handleClickIconSearch = () => {
         if (search.length !== 0) {

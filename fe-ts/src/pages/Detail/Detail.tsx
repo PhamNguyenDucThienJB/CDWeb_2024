@@ -12,7 +12,6 @@ type ProductData = {
     name: string;
     price: number;
     color: string;
-  
     size: number;
     description: string;
     quantity: number;
