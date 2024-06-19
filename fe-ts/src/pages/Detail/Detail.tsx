@@ -12,7 +12,7 @@ type ProductData = {
     name: string;
     price: number;
     color: string;
-    typeShoe: string;
+  
     size: number;
     description: string;
     quantity: number;
@@ -39,7 +39,7 @@ function Detail(): JSX.Element {
         name: '',
         price: 0,
         color: '',
-        typeShoe: '',
+      
         size: 0,
         description: '',
         quantity: 0,
@@ -105,10 +105,7 @@ function Detail(): JSX.Element {
 
     return (
         <div className="detail-product">
-            {loading ? (
-                <Loading />
-            ) : (
-                <>
+           
                     <div className="d-flex content-product">
                         <div>
                             <div className="img-product">
@@ -143,7 +140,7 @@ function Detail(): JSX.Element {
                             </div>
                         </div>
                         <div className="ms-5" style={{ lineHeight: '3.5' }}>
-                            <h2>Giày Sneaker limit</h2>
+                            <h2>{data.name}</h2>
                             <div className="d-flex">
                                 <div className="me-3"> Brand :</div>
                                 <strong>{branch.nameBranch}</strong>
@@ -154,14 +151,15 @@ function Detail(): JSX.Element {
                             </h3>
                             <div>Còn hàng</div>
                             <div className="d-flex align-items-center">
-                                <div onClick={addItem} className="incre me-4" style={{ fontSize: '25px' }}>
-                                    +
+                               
+                                <div onClick={subItem} className="descre" style={{ fontSize: '35px' }}>
+                                    -
                                 </div>
                                 <div className="me-4 " style={{ fontSize: '25px' }}>
                                     {data.quantity}
                                 </div>
-                                <div onClick={subItem} className="descre" style={{ fontSize: '35px' }}>
-                                    -
+                                <div onClick={addItem} className="incre me-4" style={{ fontSize: '25px' }}>
+                                    +
                                 </div>
                             </div>
                             <div className="mt-5">
@@ -208,7 +206,7 @@ function Detail(): JSX.Element {
                                                 vnd
                                             </li>
                                             <li>Màu sắc : {data.color}</li>
-                                            <li>Thể loại : {data.typeShoe}</li>
+                                            
                                             <li>Kích cỡ : {data.size}</li>
                                             <li>
                                                 Thương hiệu : {branch.nameBranch.length === 0 ? '' : branch.nameBranch}
@@ -223,8 +221,8 @@ function Detail(): JSX.Element {
                             )}
                         </div>
                     </div>
-                </>
-            )}
+             
+      
         </div>
     );
 }

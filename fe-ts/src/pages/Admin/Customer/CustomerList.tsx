@@ -9,6 +9,7 @@ export interface Customer {
     lastName: string;
     phone: string;
     role: string;
+    
 }
 
 const CustomerList = () => {

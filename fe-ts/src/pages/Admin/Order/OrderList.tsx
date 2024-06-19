@@ -16,6 +16,8 @@ import { Customer } from '../Customer/CustomerList';
         listDetailOrder: DetailOrder[];
     }
 
+  
+
 export interface DetailOrder {
     idDetailOrder?: number;
     quantity: number;
