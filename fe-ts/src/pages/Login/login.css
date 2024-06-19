@@ -1,0 +1,300 @@
+
+*{
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-page-login{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+.container-swiper{
+  width :55%;  
+  height :100vh  ;
+   position : relative;
+}
+.page-login{
+  margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+   
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    border-top-left-radius: inherit;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-pagination-bullet.swiper-pagination-bullet-active{
+    background: #ffffff;
+  }
+  
+  
+  /* style slide */
+  .slide{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.slide img{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 15px;
+
+}
+.slide h4{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    white-space: nowrap;
+    color: #ffffff;
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.container-login{
+  padding: 20px;
+}
+/* style button register */
+
+.btn-register{
+  position: absolute;
+  bottom: 20%;
+  left: 20%;
+  height: 40px;
+  width: 140px;
+  z-index: 3;
+  outline: none;
+  color: #ffffff;
+  background:#6a5af9;
+  font-size: 17px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* style form login */
+.container-form{
+width : 45% ; 
+height : 100vh;
+padding: 50px;
+}
+.container-form h2{
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 35px;
+  font-weight: 400;
+
+
+}
+.container-form form .field-email{
+  margin-bottom: 50px;
+
+}
+.field-email.text-err{
+  color: #ff3333;
+}
+.container-form form .field-pass{
+  margin-bottom: 50px;
+  
+}
+.field-pass.text-err{
+  color: #ff3333;
+}
+.container-form form .field-email ,
+.container-form form .field-pass{
+  position: relative;
+}
+.container-form form div input[type='text']{
+  font-size: 15px;
+  color: #111;
+  background-color: #fff;
+  font-weight: 500;
+}
+.container-form form div input[type='password']{
+  font-size: 15px;
+  color: #111;
+  background-color: #fff;
+  font-weight: 500;
+}
+.container-form form .field-email .input-email,
+.container-form form .field-pass .input-pass{
+  width: 100%;
+  outline: none;
+  /* border: 1px solid #eee; */
+  border: 1px solid #d9d9d9;
+  height: 50px;
+  padding: 0 40px;
+  border-radius: 4px;
+  transition: 0.25s ease;
+  
+
+}
+.container-form form .field-email .input-email:focus ,
+.container-form form .field-pass .input-pass:focus {
+  border-color: #6a5af9;
+}
+.container-form form .field-email .label-email,
+.container-form form .field-pass .label-pass{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  user-select: none;
+  pointer-events: none;
+  left: 40px;
+  color: #999;
+  transition: 0.25s ease;
+}
+.container-form form .field-email .label-email.text-err,
+.container-form form .field-pass .label-pass.text-err{
+  color: #ff3333;
+}
+.container-form form .field-email .input-email:focus + .label-email ,
+.container-form form .field-email .input-email:not(:placeholder-shown) + .label-email,
+.container-form form .field-pass .input-pass:focus + .label-pass ,
+.container-form form .field-pass .input-pass:not(:placeholder-shown) +.label-pass {
+  top: 0;
+  padding: 5px;
+  font-size: 12px;
+  background-color: #ffffff;
+  
+}
+.container-form form .field-email i ,
+.container-form form .field-pass i{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+}
+.container-form form .field-email span,
+.container-form form .field-pass span{
+  position: absolute;
+  top: 120%;
+  color: #ff3333;
+  font-size: 13px;
+  left: 0;
+  
+}
+
+/* style forgetpass-register */
+.container-form form .register-forgetpass{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.container-form form .register-forgetpass a{
+  text-decoration: none;
+  color: #6a5af9;
+  font-size: 13px;
+} 
+.container-form form .btn-login button{
+  height: 40px;
+  width: 140px;
+  outline: none;
+  background-color: #6a5af9;
+  border: none;
+  font-size: 17px;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: .25s ease;
+}
+/* style border err */
+.container-form form .field-email .input-email.border-err,
+.container-form form .field-pass .input-pass.border-err{
+  border-color: #ff3333;
+
+}
+.input-pass.border-err{
+  border-color: #ff3333;
+}
+.container-form form .btn-login button:hover{
+  background-color:#1a73e8;
+}
+/* .rotate {
+  animation: rotation 8s infinite linear;
+} */
+ /* animation icon loading */
+/* @keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+} */
+
+.btn-login button div{
+  font-size: 20px;
+  animation: rotation 1s infinite linear;
+
+}
+
+@keyframes rotation{
+  from{
+transform: rotate(0deg) ;
+  }
+  to{
+    transform: rotate(359deg);
+  }
+}
+@media (max-width: 992px){
+ 
+  .container-swiper{
+    display: none;
+  }
+  .container-form{
+    width : 100% !important ; 
+    height : 80vh !important;
+}
+
+}
+@media (max-width: 480px){
+
+  .container-page-login {
+    padding-left: 0px;
+    padding-right: 0;
+    padding-top: 30px;
+}
+.container-form {
+  height : 70vh !important;
+  padding: 15px !important;
+}
+}
