@@ -3,8 +3,9 @@ import './adminPage.css';
 
 const AdminPage = () => {
     return (
-        <div>
-            <nav>
+        <div className="container">
+           
+            <nav style={{ display: 'ruby-text' }}>
                 <ul className="nav-list">
                     <li className="nav-item">
                         <Link to="/admin" className="nav-link">
@@ -28,6 +29,8 @@ const AdminPage = () => {
                     </li>
                 </ul>
             </nav>
+            <h1>Chào Mừng Admin Đã Quay Trở </h1>
+            <h1>Hãy Hoàn Thanh Mọi Sự Một Cách Tối Đẹp</h1>
         </div>
     );
 };

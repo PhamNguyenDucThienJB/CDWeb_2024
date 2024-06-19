@@ -118,7 +118,7 @@ const UpdateOrder: React.FC = () => {
             className="form-control"
             id="customer"
             name="customer"
-            value={order.customer.firstName}
+            value={order.priceOrder}
             onChange={handleChange}
           />
         </div>
