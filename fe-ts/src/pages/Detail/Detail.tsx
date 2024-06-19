@@ -119,7 +119,7 @@ function Detail(): JSX.Element {
                             <div className="img-product">
                             <img src={data.thumbnail} alt="" />
                             </div>
-                            <div className="d-flex mt-4 justify-content-center">
+                            {/* <div className="d-flex mt-4 justify-content-center">
                                 <div
                                     onClick={() =>
                                         click({ image: listImage.length === 0 ? '' : listImage[0].linkImage, index: 1 })
@@ -144,8 +144,8 @@ function Detail(): JSX.Element {
                                     className={`imgs-product me-2 ${image.index === 3 ? 'active' : ''}`}
                                 >
                                     <img src={listImage.length === 0 ? '' : listImage[2].linkImage} />
-                                </div>
-                            </div>
+                                </div> 
+                             </div> */}
                         </div>
                         <div className="ms-5" style={{ lineHeight: '3.5' }}>
                             <h2>{data.name}</h2>
