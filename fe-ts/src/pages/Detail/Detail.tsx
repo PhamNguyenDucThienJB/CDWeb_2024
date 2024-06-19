@@ -7,6 +7,13 @@ import Swal from 'sweetalert2';
 import './detail.css';
 import axios from 'axios';
 
+export interface Product {
+    idProduct?: number;
+    thumbnail?: string;
+    name: string;
+    price: number;
+    status: string;
+}
 type ProductData = {
     id: number;
     name: string;
@@ -15,6 +22,7 @@ type ProductData = {
     size: number;
     description: string;
     quantity: number;
+    thumbnail: string;
 };
 
 type BranchData = {
@@ -42,6 +50,7 @@ function Detail(): JSX.Element {
         size: 0,
         description: '',
         quantity: 0,
+        thumbnail: '',
     });
     const [branch, setBranch] = useState<BranchData>({
         idBranch: 1,
@@ -108,7 +117,7 @@ function Detail(): JSX.Element {
                     <div className="d-flex content-product">
                         <div>
                             <div className="img-product">
-                                <img src={image.image.length === 0 ? '' : image.image} />
+                            <img src={data.thumbnail} alt="" />
                             </div>
                             <div className="d-flex mt-4 justify-content-center">
                                 <div
