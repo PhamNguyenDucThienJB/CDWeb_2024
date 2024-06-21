@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 
-@CrossOrigin(origins = "*", maxAge = 3600)
+@CrossOrigin(origins = "http://localhost:3000", maxAge = 3600)
 @RestController
 public class CustomerController {
     @Autowired
@@ -74,7 +74,20 @@ public class CustomerController {
     }
 
     // Sửa
-    @RequestMapping(value = "/update/customer", method = RequestMethod.PUT)
+//    @RequestMapping(value = "/update/customer", method = RequestMethod.PUT)
+//    public ResponseEntity<Customer> updateCustomer(@PathVariable("id") int id, @RequestBody Customer customer) {
+//        Customer currentCustomer = customerService.getCustomerById(id);
+//        if (currentCustomer == null) {
+//            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+//        }
+//        currentCustomer.setEmail(customer.getEmail());
+//        currentCustomer.setFirstName(customer.getFirstName());
+//        currentCustomer.setLastName(customer.getLastName());
+//        currentCustomer.setPhone(customer.getPhone());
+//        Customer updatedCustomer = customerService.updateCustomer(currentCustomer);
+//        return new ResponseEntity<>(updatedCustomer, HttpStatus.OK);
+//    }
+    @PutMapping(value = "/update/customer/{id}")
     public ResponseEntity<Customer> updateCustomer(@PathVariable("id") int id, @RequestBody Customer customer) {
         Customer currentCustomer = customerService.getCustomerById(id);
         if (currentCustomer == null) {

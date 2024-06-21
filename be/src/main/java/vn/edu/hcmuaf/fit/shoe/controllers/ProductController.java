@@ -14,12 +14,16 @@ import org.springframework.web.bind.annotation.*;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
+
 import org.springframework.web.multipart.MultipartFile;
+
 @CrossOrigin(origins = "*")
 @RestController
 public class ProductController {
     @Autowired
     ProductService productService;
+    @Value("${file.upload-dir}")
+    private String uploadDir;
 
     @GetMapping("/allProducts")
     public ResponseEntity<List<Product>> getAllProducts() {
@@ -54,18 +58,21 @@ public class ProductController {
         productService.saveProduct(product);
         return ResponseEntity.ok().body(new ResponseObject("Product added successfully", product));
     }
-    @Value("${file.upload-dir}")
-    private String uploadDir;
-
+    private String sanitizeFilename(String filename) {
+        return filename.replaceAll("[^a-zA-Z0-9\\.\\-]", "_");
+    }
     private String saveFile(MultipartFile file) {
-        // Đảm bảo thư mục tồn tại
+        // Đảm bảo thư mục tải lên tồn tại
         File uploadDirFile = new File(uploadDir);
         if (!uploadDirFile.exists()) {
             uploadDirFile.mkdirs();
         }
 
+        // Làm sạch tên tệp
+        String sanitizedFilename = sanitizeFilename(file.getOriginalFilename());
+
         // Đường dẫn tệp
-        String filePath = uploadDir + File.separator + file.getOriginalFilename();
+        String filePath = uploadDir + File.separator + sanitizedFilename;
 
         // Lưu tệp
         try {
@@ -94,21 +101,26 @@ public class ProductController {
         return ResponseEntity.noContent().build();
     }
 
-    @RequestMapping(value = "/searchAutoComplete" , method = RequestMethod.GET)
-    public ResponseEntity<ResponseObject> findNameProduct(@RequestParam("value") String value){
+
+
+
+    @RequestMapping(value = "/searchAutoComplete", method = RequestMethod.GET)
+    public ResponseEntity<ResponseObject> findNameProduct(@RequestParam("value") String value) {
         return ResponseEntity.status(HttpStatus.OK)
-                .body(new ResponseObject("oke" ,productService.findProductNameContaining(value) ));
+                .body(new ResponseObject("oke", productService.findProductNameContaining(value)));
 
     }
-    @RequestMapping(value = "/findProductById" , method = RequestMethod.GET)
-    public ResponseEntity<ResponseObject> findProductById(@RequestParam("id") String id){
+
+    @RequestMapping(value = "/findProductById", method = RequestMethod.GET)
+    public ResponseEntity<ResponseObject> findProductById(@RequestParam("id") String id) {
 
         return ResponseEntity.status(HttpStatus.OK)
-                .body(new ResponseObject("oke" , productService.findProductById(id)));
+                .body(new ResponseObject("oke", productService.findProductById(id)));
     }
+
     @RequestMapping(value = "/findProductByfilter", method = RequestMethod.POST)
-    public ResponseEntity<ResponseObject> findProductByFilter( @RequestBody ShopProduct shopProduct){
+    public ResponseEntity<ResponseObject> findProductByFilter(@RequestBody ShopProduct shopProduct) {
         return ResponseEntity.status(HttpStatus.OK)
-                .body(new ResponseObject("oke" , productService.findProduct(shopProduct))) ;
+                .body(new ResponseObject("oke", productService.findProduct(shopProduct)));
     }
 }

@@ -41,13 +41,13 @@ const ProductForm = () => {
       setProduct(prevState => ({ ...prevState, thumbnail: file }));
     }
   };
-  const handleInputChange = (event: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
-    const { name, value } = event.target;
-    setProduct((prevProduct) => ({
-        ...prevProduct,
-        [name]: value,
-    }));
-};
+    const handleInputChange = (event: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+        const { name, value } = event.target;
+        setProduct((prevProduct) => ({
+            ...prevProduct,
+            [name]: value,
+        }));
+    };
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();

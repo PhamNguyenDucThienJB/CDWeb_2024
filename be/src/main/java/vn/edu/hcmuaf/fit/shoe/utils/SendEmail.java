@@ -18,7 +18,7 @@ public class SendEmail {
         try {
             MimeMessageHelper helper = new MimeMessageHelper(message, true);
             helper.setSubject("OTP Reset PassWord");
-            helper.setFrom("vuibuonqua123@gmail.com");
+            helper.setFrom("thienpham0712@gmail.com");
             helper.setTo(to);
             String content = "<h1 style= \\n\" +\n" + "font-weight: 300; text-align: center;\\\">"+code+"</h1>";
             helper.setText(content, true);
