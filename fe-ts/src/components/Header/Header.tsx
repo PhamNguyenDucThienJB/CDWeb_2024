@@ -189,8 +189,8 @@ function Header() {
                 </div>
             </div>
             <div className="bag-shopping">
-                <i className="fa-solid fa-bag-shopping"></i>
-                <span className="item-shopping">{computeQuantity()}</span>
+            <Link to={'/pagecart'}> <i className="fa-solid fa-bag-shopping" style={{color:'black'}}></i></Link> 
+               <span className="item-shopping">{computeQuantity()}</span> 
             </div>
 
             {user.user !== undefined ? (
