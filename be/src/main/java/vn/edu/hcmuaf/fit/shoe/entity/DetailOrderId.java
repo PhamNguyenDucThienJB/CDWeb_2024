@@ -7,9 +7,10 @@ import java.io.Serializable;
 @Embeddable
 public class DetailOrderId  implements Serializable {
     @Column
-    private int productId ;
+    private int productId;
+
     @Column
-    private int orderId ;
+    private int orderId;
 
     public DetailOrderId() {
     }

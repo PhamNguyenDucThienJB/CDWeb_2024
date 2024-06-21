@@ -60,9 +60,12 @@ public class OrderController {
 
     @DeleteMapping("/order/{id}")
     public ResponseEntity<Void> deleteOrder(@PathVariable int id) {
+        System.out.println("Deleting order with ID: " + id); // Thêm dòng này để kiểm tra xem phương thức có được gọi không
         orderService.deleteOrder(id);
         return ResponseEntity.noContent().build();
     }
+
+
 
     @RequestMapping(value = "/order",method = RequestMethod.POST)
     public ResponseEntity<ResponseObject> order(@RequestBody OrderCustomer orderCustomer){

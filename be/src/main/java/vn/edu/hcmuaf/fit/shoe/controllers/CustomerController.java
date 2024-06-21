@@ -89,7 +89,7 @@ public class CustomerController {
     }
 
     // Xóa
-    @RequestMapping(value = "/customer/{id}", method = RequestMethod.PUT)
+    @RequestMapping(value = "/customer/{id}", method = RequestMethod.DELETE)
     public ResponseEntity<HttpStatus> deleteCustomer(@PathVariable("id") int id) {
         Customer customer = customerService.getCustomerById(id);
         if (customer == null) {
@@ -98,6 +98,7 @@ public class CustomerController {
         customerService.deleteCustomer(id);
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
+
 
     @RequestMapping(value = "customer/register", method = RequestMethod.POST)
     public ResponseEntity<ResponseObject> register(FormRegister form) {
