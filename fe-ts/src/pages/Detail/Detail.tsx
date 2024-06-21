@@ -163,7 +163,7 @@ function Detail(): JSX.Element {
                                 <div onClick={subItem} className="descre" style={{ fontSize: '35px' }}>
                                     -
                                 </div>
-                                <div className="me-4 " style={{ fontSize: '25px' }}>
+                                <div className="me-4 " style={{fontSize:'25px', marginLeft:"1.5rem"}}>
                                     {data.quantity}
                                 </div>
                                 <div onClick={addItem} className="incre me-4" style={{ fontSize: '25px' }}>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-
+import { Link } from 'react-router-dom';
 interface Customer {
     email?: string;
     firstName: string;
@@ -34,6 +34,30 @@ const AddCustomer = () => {
 
     return (
         <div className="container">
+             <nav style={{ display: 'ruby-text' }}>
+                <ul className="nav-list">
+                    <li className="nav-item">
+                        <Link to="/admin" className="nav-link">
+                            Trang chủ
+                        </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/admin/listProduct" className="nav-link">
+                            Danh sách sản phẩm
+                        </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/admin/listCustomer" className="nav-link">
+                            Danh sách khách hàng
+                        </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/admin/listOrder" className="nav-link">
+                            Danh sách đơn hàng
+                        </Link>
+                    </li>
+                </ul>
+            </nav>
             <h1>Thêm khách hàng</h1>
             <form onSubmit={onSubmit}>
                 <div className="form-group">

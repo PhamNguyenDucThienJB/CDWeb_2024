@@ -104,7 +104,7 @@ function HeaderAdmin() {
                             <img src={logo} alt="" />
                         </div>
 
-                        <span>Nguyen Duc</span>
+                        <span>Pham Nguyen Duc Thien</span>
 
                         <div className="bag-responsive">
                             <i className="fa-solid fa-bag-shopping icon-bag"></i>
