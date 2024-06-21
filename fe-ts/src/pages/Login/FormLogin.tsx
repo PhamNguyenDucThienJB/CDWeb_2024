@@ -142,7 +142,8 @@ function FormLogin() {
     };
     return (
         <div className="container-form">
-            <h2>Chào mừng bạn đến với cửa hàng</h2>
+            <h2>Chào mừng bạn đến với cửa hàng  </h2>
+            <h2>Bán Bánh </h2>
             <form onSubmit={submit}>
                 <div className={inputEmail.isError ? 'field-email text-err' : 'field-email'}>
                     <input

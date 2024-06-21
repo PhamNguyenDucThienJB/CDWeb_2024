@@ -18,7 +18,7 @@ public class UtilityOrder {
         or.setCompany(order.getCompany());
         or.setTimestamp(new Date());
         or.setNote(order.getNote());
-        or.setStatus("NEW");
+        or.setStatus("Đang Chờ Xác Nhận");
         or.setPriceOrder(order.getPriceOrder());
         Customer cus = customer.findById(order.getIdCus());
         or.setCustomer(cus);

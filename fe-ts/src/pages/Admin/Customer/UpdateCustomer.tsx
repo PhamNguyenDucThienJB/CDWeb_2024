@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
-
+import { Link } from 'react-router-dom';
 export interface Customer {
   idCustomer: number;
   email: string;
@@ -22,6 +22,7 @@ const UpdateCustomer: React.FC = () => {
     role: '',
   });
 
+
   useEffect(() => {
     loadUser();
   }, []);
@@ -35,7 +36,7 @@ const UpdateCustomer: React.FC = () => {
     }
   };
 
-  const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleInputChange = (event: React.ChangeEvent<HTMLInputElement> | React.ChangeEvent<HTMLSelectElement>) => {
     const { name, value } = event.target;
     setUser((prevUser) => ({ ...prevUser, [name]: value }));
   };
@@ -49,10 +50,48 @@ const UpdateCustomer: React.FC = () => {
       console.error(error);
     }
   };
+//   const handleSubmit = async (event: React.FormEvent) => {
+//     event.preventDefault();
+//     try {
+//         await axios.put(`http://localhost:8080/update/customer/${id}`, user, {
+//             headers: {
+//                 'Content-Type': 'application/json',
+//             },
+//         });
+//         // Handle successful update, e.g., show a success message or navigate to another page
+//     } catch (error) {
+//         console.error(error);
+//     }
+// };
+
   console.log("USER UPDATE" + user.email);
 
   return (
     <div className="container">
+       <nav style={{ display: 'ruby-text' }}>
+                <ul className="nav-list">
+                    <li className="nav-item">
+                        <Link to="/admin" className="nav-link">
+                            Trang chủ
+                        </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/admin/listProduct" className="nav-link">
+                            Danh sách sản phẩm
+                        </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/admin/listCustomer" className="nav-link">
+                            Danh sách khách hàng
+                        </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/admin/listOrder" className="nav-link">
+                            Danh sách đơn hàng
+                        </Link>
+                    </li>
+                </ul>
+            </nav>
       <h1>Update Customer</h1>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
@@ -101,18 +140,21 @@ const UpdateCustomer: React.FC = () => {
         </div>
         <div className="form-group">
           <label htmlFor="role">Role</label>
-          <input
-            type="text"
+          <select
             className="form-control"
             id="role"
             name="role"
             value={user.role}
             onChange={handleInputChange}
-          />
+          >
+            <option value="">Select status</option>
+            <option value="USER">USER</option>
+            <option value="ADMIN">ADMIN</option>
+          </select>
         </div>
         <button type="submit" className="btn btn-primary">
           Update User
-        </button>
+        </button> 
       </form>
     </div>
   );

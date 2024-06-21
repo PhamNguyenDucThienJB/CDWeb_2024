@@ -19,6 +19,7 @@ import java.util.Optional;
 @Service
 public class OrderService {
 
+
     @Autowired
     OrderRepository orderRepository ;
     @Autowired
@@ -84,11 +85,22 @@ public class OrderService {
             return null;
         }
     }
-
-    public void deleteOrder(int id) {
-        orderRepository.deleteById(id);
+    public void deleteOrder_detail(int id) {
+//       DetailOrder detailoder_id = getOrderById(id);
     }
 
+    public void deleteOrder(int id) {
+        try {
+            System.out.println("Attempting to delete order with ID: " + id);
+            // Xóa các bản ghi liên quan trong bảng detail_order trước
+//            detailOrderRepository.deleteByOrderOrderId(id);
+            orderRepository.deleteById(id);
+            System.out.println("Order with ID: " + id + " deleted successfully");
+        } catch (Exception e) {
+            System.out.println("Error deleting order with ID: " + id);
+            e.printStackTrace();
+        }
+    }
     public Optional<Order> findById(int idOrder) {
         return orderRepository.findById(idOrder);
     }

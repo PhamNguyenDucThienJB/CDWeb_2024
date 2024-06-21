@@ -4,9 +4,9 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import image1 from '@/assets/Image/store1.webp';
-import image2 from '@/assets/Image/store2.webp';
-import image3 from '@/assets/Image/store3.webp';
+import image1 from '@/assets/Image/login_banner_1.jpg';
+import image2 from '@/assets/Image/login_banner_2.jpg';
+import image3 from '@/assets/Image/login_banner_3.jpg';
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import { Autoplay, Pagination } from 'swiper';

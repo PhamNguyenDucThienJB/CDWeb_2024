@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 
-@CrossOrigin(origins = "*", maxAge = 3600)
+@CrossOrigin(origins = "http://localhost:3000", maxAge = 3600)
 @RestController
 public class CustomerController {
     @Autowired
@@ -74,7 +74,20 @@ public class CustomerController {
     }
 
     // Sửa
-    @RequestMapping(value = "/update/customer", method = RequestMethod.PUT)
+//    @RequestMapping(value = "/update/customer", method = RequestMethod.PUT)
+//    public ResponseEntity<Customer> updateCustomer(@PathVariable("id") int id, @RequestBody Customer customer) {
+//        Customer currentCustomer = customerService.getCustomerById(id);
+//        if (currentCustomer == null) {
+//            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+//        }
+//        currentCustomer.setEmail(customer.getEmail());
+//        currentCustomer.setFirstName(customer.getFirstName());
+//        currentCustomer.setLastName(customer.getLastName());
+//        currentCustomer.setPhone(customer.getPhone());
+//        Customer updatedCustomer = customerService.updateCustomer(currentCustomer);
+//        return new ResponseEntity<>(updatedCustomer, HttpStatus.OK);
+//    }
+    @PutMapping(value = "/update/customer/{id}")
     public ResponseEntity<Customer> updateCustomer(@PathVariable("id") int id, @RequestBody Customer customer) {
         Customer currentCustomer = customerService.getCustomerById(id);
         if (currentCustomer == null) {
@@ -89,7 +102,7 @@ public class CustomerController {
     }
 
     // Xóa
-    @RequestMapping(value = "/customer/{id}", method = RequestMethod.PUT)
+    @RequestMapping(value = "/customer/{id}", method = RequestMethod.DELETE)
     public ResponseEntity<HttpStatus> deleteCustomer(@PathVariable("id") int id) {
         Customer customer = customerService.getCustomerById(id);
         if (customer == null) {
@@ -98,6 +111,7 @@ public class CustomerController {
         customerService.deleteCustomer(id);
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
+
 
     @RequestMapping(value = "customer/register", method = RequestMethod.POST)
     public ResponseEntity<ResponseObject> register(FormRegister form) {
