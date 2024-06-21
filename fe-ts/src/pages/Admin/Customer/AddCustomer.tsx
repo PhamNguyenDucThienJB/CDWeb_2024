@@ -21,9 +21,10 @@ const AddCustomer = () => {
 
     const navigate = useNavigate();
 
-    const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const onChange = (e: React.ChangeEvent<HTMLInputElement> | React.ChangeEvent<HTMLSelectElement>) => {
         setCustomer({ ...customer, [e.target.name]: e.target.value });
     };
+
 
     const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
@@ -106,14 +107,17 @@ const AddCustomer = () => {
                 </div>
                 <div className="form-group">
                     <label htmlFor="role">Role</label>
-                    <input
-                        type="text"
+                    <select
                         className="form-control"
                         id="role"
                         name="role"
                         value={customer.role}
                         onChange={onChange}
-                    />
+                    >
+                        <option value="">Select status</option>
+                        <option value="USER">USER</option>
+                        <option value="ADMIN">ADMIN</option>
+                    </select>
                 </div>
                 <button type="submit" className="btn btn-primary">
                     Thêm

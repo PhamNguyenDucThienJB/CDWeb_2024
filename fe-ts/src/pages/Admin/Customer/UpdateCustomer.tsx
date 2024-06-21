@@ -22,6 +22,7 @@ const UpdateCustomer: React.FC = () => {
     role: '',
   });
 
+
   useEffect(() => {
     loadUser();
   }, []);
@@ -35,7 +36,7 @@ const UpdateCustomer: React.FC = () => {
     }
   };
 
-  const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleInputChange = (event: React.ChangeEvent<HTMLInputElement> | React.ChangeEvent<HTMLSelectElement>) => {
     const { name, value } = event.target;
     setUser((prevUser) => ({ ...prevUser, [name]: value }));
   };
@@ -101,14 +102,17 @@ const UpdateCustomer: React.FC = () => {
         </div>
         <div className="form-group">
           <label htmlFor="role">Role</label>
-          <input
-            type="text"
+          <select
             className="form-control"
             id="role"
             name="role"
             value={user.role}
             onChange={handleInputChange}
-          />
+          >
+            <option value="">Select status</option>
+            <option value="USER">USER</option>
+            <option value="ADMIN">ADMIN</option>
+          </select>
         </div>
         <button type="submit" className="btn btn-primary">
           Update User

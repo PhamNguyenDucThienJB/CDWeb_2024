@@ -41,6 +41,13 @@ const ProductForm = () => {
       setProduct(prevState => ({ ...prevState, thumbnail: file }));
     }
   };
+  const handleInputChange = (event: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+    const { name, value } = event.target;
+    setProduct((prevProduct) => ({
+        ...prevProduct,
+        [name]: value,
+    }));
+};
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -101,9 +108,20 @@ const ProductForm = () => {
           <input type="number" className="form-control" id="price" name="price" value={product.price} onChange={handleChange} />
         </div>
         <div className="form-group">
-          <label htmlFor="status">Trạng thái</label>
-          <input type="text" className="form-control" id="status" name="status" value={product.status} onChange={handleChange} />
-        </div>
+                    <label htmlFor="status">Status</label>
+                    <select
+                        className="form-control"
+                        id="status"
+                        name="status"
+                        value={product.status}
+                        onChange={handleInputChange}
+                        required
+                    >
+                        <option value="">Select status</option>
+                        <option value="ACTIVE">ACTIVE</option>
+                        <option value="STOCK">OUT OF STOCK</option>
+                    </select>
+                </div>
         <button type="submit" className="btn btn-primary">Lưu</button>
       </form>
     </div>
