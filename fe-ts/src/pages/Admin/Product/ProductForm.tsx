@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 export interface Product {
@@ -60,7 +59,7 @@ const ProductForm = () => {
           'Accept': 'application/json',
         },
       });
-      navigate('/');
+      navigate('/admin/listProduct');
     } catch (error) {
       console.log('Error adding/updating product:', error);
     }
@@ -68,30 +67,6 @@ const ProductForm = () => {
 
   return (
     <div className="container">
-      <nav style={{ display: 'ruby-text' }}>
-                <ul className="nav-list">
-                    <li className="nav-item">
-                        <Link to="/admin" className="nav-link">
-                            Trang chủ
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="/admin/listProduct" className="nav-link">
-                            Danh sách sản phẩm
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="/admin/listCustomer" className="nav-link">
-                            Danh sách khách hàng
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="/admin/listOrder" className="nav-link">
-                            Danh sách đơn hàng
-                        </Link>
-                    </li>
-                </ul>
-            </nav>
       <h1>{id ? 'Cập nhật sản phẩm' : 'Thêm sản phẩm'}</h1>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
