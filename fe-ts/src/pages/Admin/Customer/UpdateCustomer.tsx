@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams,useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 export interface Customer {
@@ -13,6 +13,7 @@ export interface Customer {
 
 const UpdateCustomer: React.FC = () => {
   const { id } = useParams<{ id: string }>();
+  const navigate = useNavigate();
   const [user, setUser] = useState<Customer>({
     idCustomer: 0,
     email: '',
@@ -41,28 +42,30 @@ const UpdateCustomer: React.FC = () => {
     setUser((prevUser) => ({ ...prevUser, [name]: value }));
   };
 
+  // const handleSubmit = async (event: React.FormEvent) => {
+  //   event.preventDefault();
+  //   try {
+  //     await axios.put(`${import.meta.env.VITE_APP_ENV}/customer/${id}`, user);
+  //     // Handle successful update, e.g., show a success message or navigate to another page
+  //     navigate('/admin/listCustomer');
+  //   } catch (error) {
+  //     console.error(error);
+  //   }
+  // };
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
     try {
-      await axios.put(`${import.meta.env.VITE_APP_ENV}/customer/${id}`, user);
-      // Handle successful update, e.g., show a success message or navigate to another page
+        await axios.put(`${import.meta.env.VITE_APP_ENV}/update/customer/${id}`, user, {
+            headers: {
+                'Content-Type': 'application/json',
+            },
+        });
+        // Handle successful update, e.g., show a success message or navigate to another page
+        navigate('/admin/listCustomer');
     } catch (error) {
-      console.error(error);
+        console.error(error);
     }
-  };
-//   const handleSubmit = async (event: React.FormEvent) => {
-//     event.preventDefault();
-//     try {
-//         await axios.put(`http://localhost:8080/update/customer/${id}`, user, {
-//             headers: {
-//                 'Content-Type': 'application/json',
-//             },
-//         });
-//         // Handle successful update, e.g., show a success message or navigate to another page
-//     } catch (error) {
-//         console.error(error);
-//     }
-// };
+};
 
   console.log("USER UPDATE" + user.email);
 
