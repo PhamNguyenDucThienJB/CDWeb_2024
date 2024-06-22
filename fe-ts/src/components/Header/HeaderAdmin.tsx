@@ -23,44 +23,45 @@ function HeaderAdmin() {
         });
         return count;
     };
-    // xử lí tìm kiếm sản phẩm
-    const inputSearch = async (event: React.ChangeEvent<HTMLInputElement>) => {
-        setSearch(event.target.value.trim());
-        try {
-            if (event.target.value.trim().length === 0) {
-                setShow(false);
-            } else {
-                setShow(true);
-                if (idSetTimeOut.current) {
-                    clearTimeout(idSetTimeOut.current);
-                }
+   // xử lí tìm kiếm sản phẩm
+   const inputSearch = async (event: React.ChangeEvent<HTMLInputElement>) => {
+    setSearch(event.target.value);
+    try {
+        if (event.target.value.trim().length === 0) {
+            setShow(false);
+        } else {
+            setShow(true);
+            if (idSetTimeOut.current) {
+                clearTimeout(idSetTimeOut.current);
+            }
 
-                idSetTimeOut.current = setTimeout(async () => {
-                    setSpiner(true);
-                    try {
-                        // Xử lí tìm kiếm sản phẩm GET
-                        const res = await axios.get(`${import.meta.env.VITE_APP_ENV}/searchAutoComplete`, {
-                            params: {
-                                value: event.target.value.trim(),
-                            },
-                        });
-                        if (res.data.message === 'oke') {
-                            setSpiner(false);
-                            setShow(true);
-                            setList(res.data.data);
-                        }
-                    } catch (error) {
+            idSetTimeOut.current = setTimeout(async () => {
+                setSpiner(true);
+                try {
+                    // Xử lí tìm kiếm sản phẩm GET
+                    const res = await axios.get(`${import.meta.env.VITE_APP_ENV}/searchAutoComplete`, {
+                        params: {
+                            value: event.target.value.trim(),
+                        },
+                    });
+                    if (res.data.message === 'oke') {
                         setSpiner(false);
                         setShow(true);
-                        setList([]);
-                        console.log(error);
+                        setList(res.data.data);
                     }
-                }, 1500);
-            }
-        } catch (error) {
-            console.error("Không tìm thấy " + error);
+                } catch (error) {
+                    setSpiner(false);
+                    setShow(true);
+                    setList([]);
+                    console.log(error);
+                }
+            }, 1500);
         }
-    };
+    } catch (error) {
+        console.error("Không tìm thấy " + error);
+    }
+};
+
 
     const handleClickIconSearch = () => {
         if (search.length !== 0) {
