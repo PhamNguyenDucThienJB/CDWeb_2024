@@ -12,13 +12,17 @@ import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 import org.springframework.data.domain.Pageable;
 
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.transaction.Transactional;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
 @Service
 public class ProductService {
-
+    @PersistenceContext
+    private EntityManager entityManager;
     @Autowired
     ProductRepository productRepository;
 
@@ -26,10 +30,12 @@ public class ProductService {
         return productRepository.findAll();
     }
 
+    @Transactional
     public void saveProduct(Product product) {
+        // Gắn kết lại đối tượng Branch vào phiên làm việc hiện tại
+        product.setBranch(entityManager.merge(product.getBranch()));
         productRepository.save(product);
     }
-
     public Product getProductById(int id) {
         Optional<Product> result = productRepository.findById(id);
         Product product = null;

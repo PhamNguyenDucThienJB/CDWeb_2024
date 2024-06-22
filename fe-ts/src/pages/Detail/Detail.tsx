@@ -213,9 +213,9 @@ function Detail(): JSX.Element {
                                                 Giá : {(data.price + ' ').replace(/(\d)(?=(\d\d\d)+(?!\d))/g, '$1.')}{' '}
                                                 vnd
                                             </li>
-                                            <li>Màu sắc : {data.color}</li>
+                                            {/* <li>Màu sắc : {data.color}</li>
                                             
-                                            <li>Kích cỡ : {data.size}</li>
+                                            <li>Kích cỡ : {data.size}</li> */}
                                             <li>
                                                 Thương hiệu : {branch.nameBranch.length === 0 ? '' : branch.nameBranch}
                                             </li>
