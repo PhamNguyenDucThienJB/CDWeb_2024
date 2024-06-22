@@ -101,6 +101,7 @@ public class CustomerController {
         return new ResponseEntity<>(updatedCustomer, HttpStatus.OK);
     }
 
+
     // Xóa
     @RequestMapping(value = "/customer/{id}", method = RequestMethod.DELETE)
     public ResponseEntity<HttpStatus> deleteCustomer(@PathVariable("id") int id) {

@@ -2,9 +2,11 @@ package vn.edu.hcmuaf.fit.shoe.controllers;
 
 
 import org.springframework.beans.factory.annotation.Value;
+import vn.edu.hcmuaf.fit.shoe.entity.Branch;
 import vn.edu.hcmuaf.fit.shoe.entity.Product;
 import vn.edu.hcmuaf.fit.shoe.dto.ResponseObject;
 import vn.edu.hcmuaf.fit.shoe.dto.ShopProduct;
+import vn.edu.hcmuaf.fit.shoe.services.BranchService;
 import vn.edu.hcmuaf.fit.shoe.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -20,6 +22,8 @@ import org.springframework.web.multipart.MultipartFile;
 @CrossOrigin(origins = "*")
 @RestController
 public class ProductController {
+    @Autowired
+    BranchService  branchService;
     @Autowired
     ProductService productService;
     @Value("${file.upload-dir}")
@@ -42,22 +46,38 @@ public class ProductController {
             @RequestParam("name") String name,
             @RequestParam("price") int price,
             @RequestParam("status") String status,
+            @RequestParam("description") String description,
+            @RequestParam("branch_id") int branch_id,
+            @RequestParam("quantity") int quantity,
+            @RequestParam("priceSale") int priceSale,
             @RequestParam("thumbnail") MultipartFile thumbnail) {
 
-        // Tạo đối tượng Product và xử lý file thumbnail
+        // Tìm đối tượng Branch từ cơ sở dữ liệu
+        Branch branch = branchService.findById(branch_id);
+        if (branch == null) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new ResponseObject("Branch not found", null));
+        }
+
+        // Tạo đối tượng Product và gán Branch
         Product product = new Product();
         product.setName(name);
         product.setPrice(price);
+        product.setDescription(description);
+        product.setBranch(branch); // Gán đối tượng Branch từ cơ sở dữ liệu vào Product
         product.setStatus(status);
+        product.setQuantity(quantity);
+        product.setPriceSale(priceSale);
 
         // Xử lý tệp tin thumbnail (lưu trữ, lấy đường dẫn, v.v.)
-        // Ví dụ: Lưu tệp tin vào hệ thống tệp và lấy đường dẫn
         String thumbnailPath = saveFile(thumbnail);
         product.setThumbnail(thumbnailPath);
 
+        // Lưu đối tượng Product
         productService.saveProduct(product);
         return ResponseEntity.ok().body(new ResponseObject("Product added successfully", product));
     }
+
+
     private String sanitizeFilename(String filename) {
         return filename.replaceAll("[^a-zA-Z0-9\\.\\-]", "_");
     }
@@ -91,6 +111,10 @@ public class ProductController {
         existingProduct.setPrice(product.getPrice());
         existingProduct.setThumbnail(product.getThumbnail());
         existingProduct.setStatus(product.getStatus());
+        existingProduct.setPriceSale(product.getPriceSale());
+        existingProduct.setDescription(product.getDescription());
+        existingProduct.setBranch(product.getBranch());
+        existingProduct.setQuantity(product.getQuantity());
         productService.saveProduct(existingProduct);
         return ResponseEntity.ok().body(existingProduct);
     }
