@@ -30,7 +30,7 @@ const AdminPage = () => {
                 </ul>
             </nav>
             <h1>Chào Mừng Admin Đã Quay Trở </h1>
-            <h1>Hãy Hoàn Thanh Mọi Sự Một Cách Tốt Đẹp</h1>
+            <h1>Hãy Hoàn Thành Công Việc</h1>
         </div>
     );
 };
